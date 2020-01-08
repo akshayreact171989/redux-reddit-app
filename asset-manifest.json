@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/redux-reddit-app/static/css/main.fb257fa0.chunk.css",
-    "main.js": "/redux-reddit-app/static/js/main.a47960bd.chunk.js",
-    "main.js.map": "/redux-reddit-app/static/js/main.a47960bd.chunk.js.map",
+    "main.js": "/redux-reddit-app/static/js/main.83e83279.chunk.js",
+    "main.js.map": "/redux-reddit-app/static/js/main.83e83279.chunk.js.map",
     "runtime-main.js": "/redux-reddit-app/static/js/runtime-main.46a34726.js",
     "runtime-main.js.map": "/redux-reddit-app/static/js/runtime-main.46a34726.js.map",
     "static/js/2.37a3ea66.chunk.js": "/redux-reddit-app/static/js/2.37a3ea66.chunk.js",
     "static/js/2.37a3ea66.chunk.js.map": "/redux-reddit-app/static/js/2.37a3ea66.chunk.js.map",
     "index.html": "/redux-reddit-app/index.html",
-    "precache-manifest.943828ad46aeae466014c9c155ba121d.js": "/redux-reddit-app/precache-manifest.943828ad46aeae466014c9c155ba121d.js",
+    "precache-manifest.6b435b101fa046ab71281878c24a20e2.js": "/redux-reddit-app/precache-manifest.6b435b101fa046ab71281878c24a20e2.js",
     "service-worker.js": "/redux-reddit-app/service-worker.js",
     "static/css/main.fb257fa0.chunk.css.map": "/redux-reddit-app/static/css/main.fb257fa0.chunk.css.map",
     "static/js/2.37a3ea66.chunk.js.LICENSE": "/redux-reddit-app/static/js/2.37a3ea66.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.46a34726.js",
     "static/js/2.37a3ea66.chunk.js",
     "static/css/main.fb257fa0.chunk.css",
-    "static/js/main.a47960bd.chunk.js"
+    "static/js/main.83e83279.chunk.js"
   ]
 }
