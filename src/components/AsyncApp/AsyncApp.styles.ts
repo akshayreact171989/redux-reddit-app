@@ -17,7 +17,7 @@ export const templateStyles = createStyles({
         background: "rgba(255,255,255,0.6)",
         "& h1": {
             "textAlign": "center",
-            "color": "white",
+            "color": "black",
             textTransform: "uppercase",
             "padding": "12px 24px",
             "margin": "0"
