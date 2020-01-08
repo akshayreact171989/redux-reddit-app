@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/redux-reddit-app/static/css/main.6470b25b.chunk.css",
+    "main.js": "/redux-reddit-app/static/js/main.057bf6e6.chunk.js",
+    "main.js.map": "/redux-reddit-app/static/js/main.057bf6e6.chunk.js.map",
+    "runtime-main.js": "/redux-reddit-app/static/js/runtime-main.46a34726.js",
+    "runtime-main.js.map": "/redux-reddit-app/static/js/runtime-main.46a34726.js.map",
+    "static/js/2.3560cf2a.chunk.js": "/redux-reddit-app/static/js/2.3560cf2a.chunk.js",
+    "static/js/2.3560cf2a.chunk.js.map": "/redux-reddit-app/static/js/2.3560cf2a.chunk.js.map",
+    "index.html": "/redux-reddit-app/index.html",
+    "precache-manifest.97bb8ef4cdbba9bb7063f27637451f70.js": "/redux-reddit-app/precache-manifest.97bb8ef4cdbba9bb7063f27637451f70.js",
+    "service-worker.js": "/redux-reddit-app/service-worker.js",
+    "static/css/main.6470b25b.chunk.css.map": "/redux-reddit-app/static/css/main.6470b25b.chunk.css.map",
+    "static/js/2.3560cf2a.chunk.js.LICENSE": "/redux-reddit-app/static/js/2.3560cf2a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46a34726.js",
+    "static/js/2.3560cf2a.chunk.js",
+    "static/css/main.6470b25b.chunk.css",
+    "static/js/main.057bf6e6.chunk.js"
+  ]
+}
