@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/redux-reddit-app/static/css/main.5d4b831d.chunk.css",
-    "main.js": "/redux-reddit-app/static/js/main.39c7a456.chunk.js",
-    "main.js.map": "/redux-reddit-app/static/js/main.39c7a456.chunk.js.map",
+    "main.css": "/redux-reddit-app/static/css/main.fb257fa0.chunk.css",
+    "main.js": "/redux-reddit-app/static/js/main.a47960bd.chunk.js",
+    "main.js.map": "/redux-reddit-app/static/js/main.a47960bd.chunk.js.map",
     "runtime-main.js": "/redux-reddit-app/static/js/runtime-main.46a34726.js",
     "runtime-main.js.map": "/redux-reddit-app/static/js/runtime-main.46a34726.js.map",
     "static/js/2.37a3ea66.chunk.js": "/redux-reddit-app/static/js/2.37a3ea66.chunk.js",
     "static/js/2.37a3ea66.chunk.js.map": "/redux-reddit-app/static/js/2.37a3ea66.chunk.js.map",
     "index.html": "/redux-reddit-app/index.html",
-    "precache-manifest.2bf54798b214f5176db6d5c5d5d0d7ca.js": "/redux-reddit-app/precache-manifest.2bf54798b214f5176db6d5c5d5d0d7ca.js",
+    "precache-manifest.943828ad46aeae466014c9c155ba121d.js": "/redux-reddit-app/precache-manifest.943828ad46aeae466014c9c155ba121d.js",
     "service-worker.js": "/redux-reddit-app/service-worker.js",
-    "static/css/main.5d4b831d.chunk.css.map": "/redux-reddit-app/static/css/main.5d4b831d.chunk.css.map",
+    "static/css/main.fb257fa0.chunk.css.map": "/redux-reddit-app/static/css/main.fb257fa0.chunk.css.map",
     "static/js/2.37a3ea66.chunk.js.LICENSE": "/redux-reddit-app/static/js/2.37a3ea66.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.46a34726.js",
     "static/js/2.37a3ea66.chunk.js",
-    "static/css/main.5d4b831d.chunk.css",
-    "static/js/main.39c7a456.chunk.js"
+    "static/css/main.fb257fa0.chunk.css",
+    "static/js/main.a47960bd.chunk.js"
   ]
 }
