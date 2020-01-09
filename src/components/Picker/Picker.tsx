@@ -1,8 +1,13 @@
-import { WithStyles, withStyles, FormControl, InputLabel, Select, MenuItem } from '@material-ui/core'
+import { WithStyles, withStyles } from '@material-ui/core'
 import * as React from 'react'
 
 import { templateStyles } from './Picker.styles'
 import { Grid } from '../grid/grid'
+import Select from 'react-select';
+import makeAnimated from 'react-select/animated';
+
+
+const animatedComponents = makeAnimated();
 
 export interface PickerFieldProps {
     options: string[]
@@ -24,6 +29,24 @@ class Component extends React.Component<Props, State> {
                 {value}
             </h1></Grid>
             <Grid item xs={12} className={classes.picker__Container}>
+                {/* <Select
+                    aria-labelledby="ay-label"
+                    onInputChange={() => onChange(e.target.in)}
+                    placeholder="Select"
+                    // value={{ "ReactJS": "ReactJS" }}
+                    // onChange={e => onChange(e.target.value)}
+                    // name="subject"
+                    options={[
+                        { value: 'ReactJS', label: 'ReactJS' },
+                        { value: 'Frontend', label: 'Frontend' },
+                        { value: 'ReduxJS', label: 'ReduxJS' },
+                    ]}
+                    // options={options.map(option => }
+                    className={classes.optionContainer}
+                    components={animatedComponents}
+                    classNamePrefix="select"
+                // menuIsOpen={true}
+                /> */}
                 <select onChange={e => onChange(e.target.value)} value={value}>
                     {options.map(option => (
                         <option value={option} key={option}>

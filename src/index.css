@@ -1,7 +1,6 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg");  
-  background-size: 200%;
-  margin: 12px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  margin: 0;
 }

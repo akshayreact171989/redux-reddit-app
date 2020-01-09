@@ -1,4 +1,4 @@
-import { WithStyles, withStyles } from '@material-ui/core'
+import { WithStyles, withStyles, Button } from '@material-ui/core'
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
@@ -65,17 +65,19 @@ class Component extends React.Component<Props, State> {
             <Grid item xs={12} className={classes.headerContainer}><Picker
                 value={selectedSubreddit}
                 onChange={this.handleChange}
-                options={['ReactJS', 'Frontend', 'Reduxjs']}
+                options={['ReactJS', 'Frontend', 'Reduxjs', 'Photography']}
             />
             </Grid>
             <Grid item xs={12} className={classes.asyncApp__subHeading}>
                 {lastUpdated && (
-                    <span>
+                    <div className={classes.subHeading__text}>
                         Last updated at {new Date(lastUpdated).toLocaleTimeString()}.{' '}
-                    </span>
+                    </div>
                 )}
+            </Grid>
+            <Grid item xs={12} className={classes.asyncApp__subHeading}>
                 {!isFetching && (
-                    <button onClick={this.handleRefreshClick}>Refresh</button>
+                    <div><Button onClick={this.handleRefreshClick} variant="contained" color="secondary" style={{ fontSize: 18, border: "0.5px solid white !important" }} className={classes.buttonContainer}>Refresh</Button></div>
                 )}
             </Grid>
             {isFetching && posts.length === 0 && <h2>Loading...</h2>}
