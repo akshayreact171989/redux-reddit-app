@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,kCAAmC,CACnC,iCAAkC,CAClC,oGAA+D,CAA/D,0DAA+D,CAC/D,QACF","file":"main.afd870f8.chunk.css","sourcesContent":["body {\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  background: linear-gradient(to left, #0f2027, #203a43, #2c5364); \r\n  margin: 0;\r\n}"]}
