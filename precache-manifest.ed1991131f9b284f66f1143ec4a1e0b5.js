@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06f80b36704676b7e71ec8a50cb09d9c",
+    "revision": "fd39bbf779d3f0f0fd9b73e6055ea422",
     "url": "/redux-reddit-app/index.html"
   },
   {
-    "revision": "a07a519dc2ca70c77aba",
+    "revision": "97517733abcc448a41da",
     "url": "/redux-reddit-app/static/css/main.afd870f8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/redux-reddit-app/static/js/2.b7723b8b.chunk.js.LICENSE"
   },
   {
-    "revision": "a07a519dc2ca70c77aba",
-    "url": "/redux-reddit-app/static/js/main.d9ae06a6.chunk.js"
+    "revision": "97517733abcc448a41da",
+    "url": "/redux-reddit-app/static/js/main.1c9f9bb4.chunk.js"
   },
   {
     "revision": "12a62f8be46e50350b82",
