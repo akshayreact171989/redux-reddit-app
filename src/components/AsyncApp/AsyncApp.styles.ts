@@ -20,7 +20,7 @@ export const templateStyles = createStyles({
             "textAlign": "center",
             "color": "white",
             textTransform: "uppercase",
-            "padding": "12px 24px",
+            "padding": "12px 8px",
             letterSpacing: 12,
             fontSize: 24,
             [mdAndUp()]: {
@@ -66,7 +66,8 @@ export const templateStyles = createStyles({
     },
     subHeading__text: {
         color: "white",
-
+        display: "flex",
+        alignItems: "center"
     },
     buttonContainer: {
         border: "0.5px solid white",
@@ -75,5 +76,15 @@ export const templateStyles = createStyles({
         letterSpacing: 1.5,
         fontWeight: 700,
         backgroundColor: "#E80000"
+    },
+    asyncApp__refreshIcon: {
+        height: 32,
+        width: 32,
+        marginLeft: 8,
+        cursor: "pointer",
+        transition: "all .2s ease-in-out",
+        "&:hover": {
+            transform: "scale(1.25)"
+        }
     }
 })

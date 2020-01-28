@@ -12,6 +12,7 @@ import { Posts } from '../Posts/Posts'
 
 import { templateStyles } from './AsyncApp.styles'
 import { Grid } from '../grid/grid'
+import Refresh from '../../img/refresh.png'
 
 export interface AsyncAppFieldProps {
     selectedSubreddit: any
@@ -71,15 +72,16 @@ class Component extends React.Component<Props, State> {
             <Grid item xs={12} className={classes.asyncApp__subHeading}>
                 {lastUpdated && (
                     <div className={classes.subHeading__text}>
-                        Last updated at {new Date(lastUpdated).toLocaleTimeString()}.{' '}
+                        Last updated at {new Date().toLocaleTimeString()}.{' '}
+                        {!isFetching && (<img src={Refresh} onClick={this.handleRefreshClick} className={classes.asyncApp__refreshIcon}></img>)}
                     </div>
                 )}
             </Grid>
-            <Grid item xs={12} className={classes.asyncApp__subHeading}>
+            {/* <Grid item xs={12} className={classes.asyncApp__subHeading}>
                 {!isFetching && (
                     <div><Button onClick={this.handleRefreshClick} variant="contained" color="secondary" style={{ fontSize: 18, border: "0.5px solid white !important" }} className={classes.buttonContainer}>Refresh</Button></div>
                 )}
-            </Grid>
+            </Grid> */}
             {isFetching && posts.length === 0 && <h2>Loading...</h2>}
             {!isFetching && posts.length === 0 && <h2>Empty.</h2>}
             {posts.length > 0 && (

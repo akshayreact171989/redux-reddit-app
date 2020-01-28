@@ -32,13 +32,13 @@ export const zoomIn = {
 
 export const imageContainerLoading = {
     "0%": {
-        backgroundColor: "#e0e0e0"
+        backgroundColor: "#DCDCDC"
     },
     "50%": {
-        backgroundColor: "#eeeeee",
+        backgroundColor: "#B0B0B0",
     },
     "100%": {
-        backgroundColor: "#e0e0e0"
+        backgroundColor: "#D0D0D0"
     }
 }
 
